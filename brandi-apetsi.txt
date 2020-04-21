@@ -1,8 +1,18 @@
 https://codepen.io/DaBusyB/pen/vYNXvQN?editors=1100
 
 1.What is the difference between an inline element and a block element?
-2. What happens when an element is positioned absolutely? 
-3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-5. In your own words, explain the box model. What is the fix for the box model? 
-Stretch Git Tasks
+Inline elements show within other elements and don't naturally take up their own line. Block elements take up the whole linem
+
+2. What happens when an element is positioned absolutely?
+Absolute is positioned relative to the position of its ancestor
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+Display inline block
+
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+div, p. footer
+input, textarea
+button
+
+5. In your own words, explain the box model. What is the fix for the box model?
+Box model refers to the "box" i.e. padding, moargin, etc., that surrounds the element.  The problem with box model is that additional padding and border will be added on top of dimesions that I will declare. box-sizing: border-box is the fix.
